@@ -50,10 +50,9 @@ for i in range(13):
     y=randint(90,170)
     circle(screen, FOREST_GREEN, (x,y),30)
 #sun
-angle=0
 x=530
 y=40
-circle(screen,(YELLOW),(530,40),20)
+circle(screen,(YELLOW),(x,y),20)
 for i in range(12):
     angle_rad=2*math.pi*i /12
     end_x=x+20*2*math.cos(angle_rad)
